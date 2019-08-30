@@ -1,6 +1,6 @@
 SolutionSimple: simple solution by sorting lastName+firstName in place
 SolutionStandard: sample client of how to use this program.
-'''java
+```java
     String[] records = { 
             "PID1,POND^AMY,F,19890224", 
             "PID2,WILLIAMS^RORY,M,19881102", 
@@ -13,4 +13,4 @@ SolutionStandard: sample client of how to use this program.
     PatientResultSet prs = new PatientResultSet(records);
     prs.groupBy(groupBy, orderBy);
     System.out.println(prs);
-'''
+```
