@@ -14,3 +14,11 @@ SolutionStandard: sample client of how to use this program.
     prs.groupBy(groupBy, orderBy);
     System.out.println(prs);
 ```
+
+How to run it:
+git clone this project then
+import it to IDE(e.g. Eclipse or IntellJ), run JUnit tests from IDE
+or
+run "mvn test" from command line
+
+PatientResultSetTest is the full test.
